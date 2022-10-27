@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity2">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:background="@android:color/white"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/kolNama"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:outlineSpotShadowColor="#FFFFFF"
+                android:padding="10sp"
+                android:text="Nama"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/kolTempat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:outlineSpotShadowColor="#FFFFFF"
+                android:padding="10sp"
+                android:text="Tempat"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/kolTTL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:outlineSpotShadowColor="#FFFFFF"
+                android:padding="10sp"
+                android:text="Tanggal Lahir"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/dataNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="TextView"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/datatempat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="TextView"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/datattl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="TextView"
+                tools:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
