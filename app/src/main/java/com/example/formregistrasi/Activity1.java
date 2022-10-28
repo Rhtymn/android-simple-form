@@ -39,6 +39,7 @@ public class Activity1 extends AppCompatActivity {
         final int year = calendar.get(Calendar.YEAR);
         final int month = calendar.get(Calendar.YEAR);
         final int day = calendar.get(Calendar.DAY_OF_MONTH);
+
         btnDaftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
